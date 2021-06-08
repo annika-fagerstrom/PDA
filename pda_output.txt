@@ -1,0 +1,335 @@
+PDA Output for aabb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p |                 aabb$ |                |             |             |
+|    1 |     q |                 aabb$ |              S |           1 |             |
+|    2 |    qa |                  abb$ |              S |           2 |             |
+|    3 |    qa |                  abb$ |              a |           7 |    S -> aSb |
+|    4 |     q |                  abb$ |              S |           3 |             |
+|    5 |    qa |                   bb$ |              S |           2 |             |
+|    6 |    qa |                   bb$ |              a |           7 |    S -> aSb |
+|    7 |     q |                   bb$ |              S |           3 |             |
+|    8 |    qb |                    b$ |              S |           4 |             |
+|    9 |    qb |                    b$ |              b |           8 |      S -> e |
+|   10 |     q |                    b$ |              S |           5 |             |
+|   11 |    qb |                     $ |              S |           4 |             |
+|   12 |    qb |                     $ |              b |           8 |      S -> e |
+|   13 |     q |                     $ |              S |           5 |             |
+|   14 |    q$ |                       |              S |           6 |             |
+
+PDA Output for aaabbb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p |               aaabbb$ |                |             |             |
+|    1 |     q |               aaabbb$ |              S |           1 |             |
+|    2 |    qa |                aabbb$ |              S |           2 |             |
+|    3 |    qa |                aabbb$ |              a |           7 |    S -> aSb |
+|    4 |     q |                aabbb$ |              S |           3 |             |
+|    5 |    qa |                 abbb$ |              S |           2 |             |
+|    6 |    qa |                 abbb$ |              a |           7 |    S -> aSb |
+|    7 |     q |                 abbb$ |              S |           3 |             |
+|    8 |    qa |                  bbb$ |              S |           2 |             |
+|    9 |    qa |                  bbb$ |              a |           7 |    S -> aSb |
+|   10 |     q |                  bbb$ |              S |           3 |             |
+|   11 |    qb |                   bb$ |              S |           4 |             |
+|   12 |    qb |                   bb$ |              b |           8 |      S -> e |
+|   13 |     q |                   bb$ |              S |           5 |             |
+|   14 |    qb |                    b$ |              S |           4 |             |
+|   15 |    qb |                    b$ |              b |           8 |      S -> e |
+|   16 |     q |                    b$ |              S |           5 |             |
+|   17 |    qb |                     $ |              S |           4 |             |
+|   18 |    qb |                     $ |              b |           8 |      S -> e |
+|   19 |     q |                     $ |              S |           5 |             |
+|   20 |    q$ |                       |              S |           6 |             |
+
+PDA Output for aaaabbbb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p |             aaaabbbb$ |                |             |             |
+|    1 |     q |             aaaabbbb$ |              S |           1 |             |
+|    2 |    qa |              aaabbbb$ |              S |           2 |             |
+|    3 |    qa |              aaabbbb$ |              a |           7 |    S -> aSb |
+|    4 |     q |              aaabbbb$ |              S |           3 |             |
+|    5 |    qa |               aabbbb$ |              S |           2 |             |
+|    6 |    qa |               aabbbb$ |              a |           7 |    S -> aSb |
+|    7 |     q |               aabbbb$ |              S |           3 |             |
+|    8 |    qa |                abbbb$ |              S |           2 |             |
+|    9 |    qa |                abbbb$ |              a |           7 |    S -> aSb |
+|   10 |     q |                abbbb$ |              S |           3 |             |
+|   11 |    qa |                 bbbb$ |              S |           2 |             |
+|   12 |    qa |                 bbbb$ |              a |           7 |    S -> aSb |
+|   13 |     q |                 bbbb$ |              S |           3 |             |
+|   14 |    qb |                  bbb$ |              S |           4 |             |
+|   15 |    qb |                  bbb$ |              b |           8 |      S -> e |
+|   16 |     q |                  bbb$ |              S |           5 |             |
+|   17 |    qb |                   bb$ |              S |           4 |             |
+|   18 |    qb |                   bb$ |              b |           8 |      S -> e |
+|   19 |     q |                   bb$ |              S |           5 |             |
+|   20 |    qb |                    b$ |              S |           4 |             |
+|   21 |    qb |                    b$ |              b |           8 |      S -> e |
+|   22 |     q |                    b$ |              S |           5 |             |
+|   23 |    qb |                     $ |              S |           4 |             |
+|   24 |    qb |                     $ |              b |           8 |      S -> e |
+|   25 |     q |                     $ |              S |           5 |             |
+|   26 |    q$ |                       |              S |           6 |             |
+
+PDA Output for aaaaabbbbb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p |           aaaaabbbbb$ |                |             |             |
+|    1 |     q |           aaaaabbbbb$ |              S |           1 |             |
+|    2 |    qa |            aaaabbbbb$ |              S |           2 |             |
+|    3 |    qa |            aaaabbbbb$ |              a |           7 |    S -> aSb |
+|    4 |     q |            aaaabbbbb$ |              S |           3 |             |
+|    5 |    qa |             aaabbbbb$ |              S |           2 |             |
+|    6 |    qa |             aaabbbbb$ |              a |           7 |    S -> aSb |
+|    7 |     q |             aaabbbbb$ |              S |           3 |             |
+|    8 |    qa |              aabbbbb$ |              S |           2 |             |
+|    9 |    qa |              aabbbbb$ |              a |           7 |    S -> aSb |
+|   10 |     q |              aabbbbb$ |              S |           3 |             |
+|   11 |    qa |               abbbbb$ |              S |           2 |             |
+|   12 |    qa |               abbbbb$ |              a |           7 |    S -> aSb |
+|   13 |     q |               abbbbb$ |              S |           3 |             |
+|   14 |    qa |                bbbbb$ |              S |           2 |             |
+|   15 |    qa |                bbbbb$ |              a |           7 |    S -> aSb |
+|   16 |     q |                bbbbb$ |              S |           3 |             |
+|   17 |    qb |                 bbbb$ |              S |           4 |             |
+|   18 |    qb |                 bbbb$ |              b |           8 |      S -> e |
+|   19 |     q |                 bbbb$ |              S |           5 |             |
+|   20 |    qb |                  bbb$ |              S |           4 |             |
+|   21 |    qb |                  bbb$ |              b |           8 |      S -> e |
+|   22 |     q |                  bbb$ |              S |           5 |             |
+|   23 |    qb |                   bb$ |              S |           4 |             |
+|   24 |    qb |                   bb$ |              b |           8 |      S -> e |
+|   25 |     q |                   bb$ |              S |           5 |             |
+|   26 |    qb |                    b$ |              S |           4 |             |
+|   27 |    qb |                    b$ |              b |           8 |      S -> e |
+|   28 |     q |                    b$ |              S |           5 |             |
+|   29 |    qb |                     $ |              S |           4 |             |
+|   30 |    qb |                     $ |              b |           8 |      S -> e |
+|   31 |     q |                     $ |              S |           5 |             |
+|   32 |    q$ |                       |              S |           6 |             |
+
+PDA Output for aaaaaaabbbbbbb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p |       aaaaaaabbbbbbb$ |                |             |             |
+|    1 |     q |       aaaaaaabbbbbbb$ |              S |           1 |             |
+|    2 |    qa |        aaaaaabbbbbbb$ |              S |           2 |             |
+|    3 |    qa |        aaaaaabbbbbbb$ |              a |           7 |    S -> aSb |
+|    4 |     q |        aaaaaabbbbbbb$ |              S |           3 |             |
+|    5 |    qa |         aaaaabbbbbbb$ |              S |           2 |             |
+|    6 |    qa |         aaaaabbbbbbb$ |              a |           7 |    S -> aSb |
+|    7 |     q |         aaaaabbbbbbb$ |              S |           3 |             |
+|    8 |    qa |          aaaabbbbbbb$ |              S |           2 |             |
+|    9 |    qa |          aaaabbbbbbb$ |              a |           7 |    S -> aSb |
+|   10 |     q |          aaaabbbbbbb$ |              S |           3 |             |
+|   11 |    qa |           aaabbbbbbb$ |              S |           2 |             |
+|   12 |    qa |           aaabbbbbbb$ |              a |           7 |    S -> aSb |
+|   13 |     q |           aaabbbbbbb$ |              S |           3 |             |
+|   14 |    qa |            aabbbbbbb$ |              S |           2 |             |
+|   15 |    qa |            aabbbbbbb$ |              a |           7 |    S -> aSb |
+|   16 |     q |            aabbbbbbb$ |              S |           3 |             |
+|   17 |    qa |             abbbbbbb$ |              S |           2 |             |
+|   18 |    qa |             abbbbbbb$ |              a |           7 |    S -> aSb |
+|   19 |     q |             abbbbbbb$ |              S |           3 |             |
+|   20 |    qa |              bbbbbbb$ |              S |           2 |             |
+|   21 |    qa |              bbbbbbb$ |              a |           7 |    S -> aSb |
+|   22 |     q |              bbbbbbb$ |              S |           3 |             |
+|   23 |    qb |               bbbbbb$ |              S |           4 |             |
+|   24 |    qb |               bbbbbb$ |              b |           8 |      S -> e |
+|   25 |     q |               bbbbbb$ |              S |           5 |             |
+|   26 |    qb |                bbbbb$ |              S |           4 |             |
+|   27 |    qb |                bbbbb$ |              b |           8 |      S -> e |
+|   28 |     q |                bbbbb$ |              S |           5 |             |
+|   29 |    qb |                 bbbb$ |              S |           4 |             |
+|   30 |    qb |                 bbbb$ |              b |           8 |      S -> e |
+|   31 |     q |                 bbbb$ |              S |           5 |             |
+|   32 |    qb |                  bbb$ |              S |           4 |             |
+|   33 |    qb |                  bbb$ |              b |           8 |      S -> e |
+|   34 |     q |                  bbb$ |              S |           5 |             |
+|   35 |    qb |                   bb$ |              S |           4 |             |
+|   36 |    qb |                   bb$ |              b |           8 |      S -> e |
+|   37 |     q |                   bb$ |              S |           5 |             |
+|   38 |    qb |                    b$ |              S |           4 |             |
+|   39 |    qb |                    b$ |              b |           8 |      S -> e |
+|   40 |     q |                    b$ |              S |           5 |             |
+|   41 |    qb |                     $ |              S |           4 |             |
+|   42 |    qb |                     $ |              b |           8 |      S -> e |
+|   43 |     q |                     $ |              S |           5 |             |
+|   44 |    q$ |                       |              S |           6 |             |
+
+PDA Output for aaaaaaaabbbbbbbb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p |     aaaaaaaabbbbbbbb$ |                |             |             |
+|    1 |     q |     aaaaaaaabbbbbbbb$ |              S |           1 |             |
+|    2 |    qa |      aaaaaaabbbbbbbb$ |              S |           2 |             |
+|    3 |    qa |      aaaaaaabbbbbbbb$ |              a |           7 |    S -> aSb |
+|    4 |     q |      aaaaaaabbbbbbbb$ |              S |           3 |             |
+|    5 |    qa |       aaaaaabbbbbbbb$ |              S |           2 |             |
+|    6 |    qa |       aaaaaabbbbbbbb$ |              a |           7 |    S -> aSb |
+|    7 |     q |       aaaaaabbbbbbbb$ |              S |           3 |             |
+|    8 |    qa |        aaaaabbbbbbbb$ |              S |           2 |             |
+|    9 |    qa |        aaaaabbbbbbbb$ |              a |           7 |    S -> aSb |
+|   10 |     q |        aaaaabbbbbbbb$ |              S |           3 |             |
+|   11 |    qa |         aaaabbbbbbbb$ |              S |           2 |             |
+|   12 |    qa |         aaaabbbbbbbb$ |              a |           7 |    S -> aSb |
+|   13 |     q |         aaaabbbbbbbb$ |              S |           3 |             |
+|   14 |    qa |          aaabbbbbbbb$ |              S |           2 |             |
+|   15 |    qa |          aaabbbbbbbb$ |              a |           7 |    S -> aSb |
+|   16 |     q |          aaabbbbbbbb$ |              S |           3 |             |
+|   17 |    qa |           aabbbbbbbb$ |              S |           2 |             |
+|   18 |    qa |           aabbbbbbbb$ |              a |           7 |    S -> aSb |
+|   19 |     q |           aabbbbbbbb$ |              S |           3 |             |
+|   20 |    qa |            abbbbbbbb$ |              S |           2 |             |
+|   21 |    qa |            abbbbbbbb$ |              a |           7 |    S -> aSb |
+|   22 |     q |            abbbbbbbb$ |              S |           3 |             |
+|   23 |    qa |             bbbbbbbb$ |              S |           2 |             |
+|   24 |    qa |             bbbbbbbb$ |              a |           7 |    S -> aSb |
+|   25 |     q |             bbbbbbbb$ |              S |           3 |             |
+|   26 |    qb |              bbbbbbb$ |              S |           4 |             |
+|   27 |    qb |              bbbbbbb$ |              b |           8 |      S -> e |
+|   28 |     q |              bbbbbbb$ |              S |           5 |             |
+|   29 |    qb |               bbbbbb$ |              S |           4 |             |
+|   30 |    qb |               bbbbbb$ |              b |           8 |      S -> e |
+|   31 |     q |               bbbbbb$ |              S |           5 |             |
+|   32 |    qb |                bbbbb$ |              S |           4 |             |
+|   33 |    qb |                bbbbb$ |              b |           8 |      S -> e |
+|   34 |     q |                bbbbb$ |              S |           5 |             |
+|   35 |    qb |                 bbbb$ |              S |           4 |             |
+|   36 |    qb |                 bbbb$ |              b |           8 |      S -> e |
+|   37 |     q |                 bbbb$ |              S |           5 |             |
+|   38 |    qb |                  bbb$ |              S |           4 |             |
+|   39 |    qb |                  bbb$ |              b |           8 |      S -> e |
+|   40 |     q |                  bbb$ |              S |           5 |             |
+|   41 |    qb |                   bb$ |              S |           4 |             |
+|   42 |    qb |                   bb$ |              b |           8 |      S -> e |
+|   43 |     q |                   bb$ |              S |           5 |             |
+|   44 |    qb |                    b$ |              S |           4 |             |
+|   45 |    qb |                    b$ |              b |           8 |      S -> e |
+|   46 |     q |                    b$ |              S |           5 |             |
+|   47 |    qb |                     $ |              S |           4 |             |
+|   48 |    qb |                     $ |              b |           8 |      S -> e |
+|   49 |     q |                     $ |              S |           5 |             |
+|   50 |    q$ |                       |              S |           6 |             |
+
+PDA Output for aaaaaaaaabbbbbbbbb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p |   aaaaaaaaabbbbbbbbb$ |                |             |             |
+|    1 |     q |   aaaaaaaaabbbbbbbbb$ |              S |           1 |             |
+|    2 |    qa |    aaaaaaaabbbbbbbbb$ |              S |           2 |             |
+|    3 |    qa |    aaaaaaaabbbbbbbbb$ |              a |           7 |    S -> aSb |
+|    4 |     q |    aaaaaaaabbbbbbbbb$ |              S |           3 |             |
+|    5 |    qa |     aaaaaaabbbbbbbbb$ |              S |           2 |             |
+|    6 |    qa |     aaaaaaabbbbbbbbb$ |              a |           7 |    S -> aSb |
+|    7 |     q |     aaaaaaabbbbbbbbb$ |              S |           3 |             |
+|    8 |    qa |      aaaaaabbbbbbbbb$ |              S |           2 |             |
+|    9 |    qa |      aaaaaabbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   10 |     q |      aaaaaabbbbbbbbb$ |              S |           3 |             |
+|   11 |    qa |       aaaaabbbbbbbbb$ |              S |           2 |             |
+|   12 |    qa |       aaaaabbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   13 |     q |       aaaaabbbbbbbbb$ |              S |           3 |             |
+|   14 |    qa |        aaaabbbbbbbbb$ |              S |           2 |             |
+|   15 |    qa |        aaaabbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   16 |     q |        aaaabbbbbbbbb$ |              S |           3 |             |
+|   17 |    qa |         aaabbbbbbbbb$ |              S |           2 |             |
+|   18 |    qa |         aaabbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   19 |     q |         aaabbbbbbbbb$ |              S |           3 |             |
+|   20 |    qa |          aabbbbbbbbb$ |              S |           2 |             |
+|   21 |    qa |          aabbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   22 |     q |          aabbbbbbbbb$ |              S |           3 |             |
+|   23 |    qa |           abbbbbbbbb$ |              S |           2 |             |
+|   24 |    qa |           abbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   25 |     q |           abbbbbbbbb$ |              S |           3 |             |
+|   26 |    qa |            bbbbbbbbb$ |              S |           2 |             |
+|   27 |    qa |            bbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   28 |     q |            bbbbbbbbb$ |              S |           3 |             |
+|   29 |    qb |             bbbbbbbb$ |              S |           4 |             |
+|   30 |    qb |             bbbbbbbb$ |              b |           8 |      S -> e |
+|   31 |     q |             bbbbbbbb$ |              S |           5 |             |
+|   32 |    qb |              bbbbbbb$ |              S |           4 |             |
+|   33 |    qb |              bbbbbbb$ |              b |           8 |      S -> e |
+|   34 |     q |              bbbbbbb$ |              S |           5 |             |
+|   35 |    qb |               bbbbbb$ |              S |           4 |             |
+|   36 |    qb |               bbbbbb$ |              b |           8 |      S -> e |
+|   37 |     q |               bbbbbb$ |              S |           5 |             |
+|   38 |    qb |                bbbbb$ |              S |           4 |             |
+|   39 |    qb |                bbbbb$ |              b |           8 |      S -> e |
+|   40 |     q |                bbbbb$ |              S |           5 |             |
+|   41 |    qb |                 bbbb$ |              S |           4 |             |
+|   42 |    qb |                 bbbb$ |              b |           8 |      S -> e |
+|   43 |     q |                 bbbb$ |              S |           5 |             |
+|   44 |    qb |                  bbb$ |              S |           4 |             |
+|   45 |    qb |                  bbb$ |              b |           8 |      S -> e |
+|   46 |     q |                  bbb$ |              S |           5 |             |
+|   47 |    qb |                   bb$ |              S |           4 |             |
+|   48 |    qb |                   bb$ |              b |           8 |      S -> e |
+|   49 |     q |                   bb$ |              S |           5 |             |
+|   50 |    qb |                    b$ |              S |           4 |             |
+|   51 |    qb |                    b$ |              b |           8 |      S -> e |
+|   52 |     q |                    b$ |              S |           5 |             |
+|   53 |    qb |                     $ |              S |           4 |             |
+|   54 |    qb |                     $ |              b |           8 |      S -> e |
+|   55 |     q |                     $ |              S |           5 |             |
+|   56 |    q$ |                       |              S |           6 |             |
+
+PDA Output for aaaaaaaaaabbbbbbbbbb$
+| step | state |     Unread input      | (Top of) stack | Δ rule used | R rule used |
+|    0 |     p | aaaaaaaaaabbbbbbbbbb$ |                |             |             |
+|    1 |     q | aaaaaaaaaabbbbbbbbbb$ |              S |           1 |             |
+|    2 |    qa |  aaaaaaaaabbbbbbbbbb$ |              S |           2 |             |
+|    3 |    qa |  aaaaaaaaabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|    4 |     q |  aaaaaaaaabbbbbbbbbb$ |              S |           3 |             |
+|    5 |    qa |   aaaaaaaabbbbbbbbbb$ |              S |           2 |             |
+|    6 |    qa |   aaaaaaaabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|    7 |     q |   aaaaaaaabbbbbbbbbb$ |              S |           3 |             |
+|    8 |    qa |    aaaaaaabbbbbbbbbb$ |              S |           2 |             |
+|    9 |    qa |    aaaaaaabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   10 |     q |    aaaaaaabbbbbbbbbb$ |              S |           3 |             |
+|   11 |    qa |     aaaaaabbbbbbbbbb$ |              S |           2 |             |
+|   12 |    qa |     aaaaaabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   13 |     q |     aaaaaabbbbbbbbbb$ |              S |           3 |             |
+|   14 |    qa |      aaaaabbbbbbbbbb$ |              S |           2 |             |
+|   15 |    qa |      aaaaabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   16 |     q |      aaaaabbbbbbbbbb$ |              S |           3 |             |
+|   17 |    qa |       aaaabbbbbbbbbb$ |              S |           2 |             |
+|   18 |    qa |       aaaabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   19 |     q |       aaaabbbbbbbbbb$ |              S |           3 |             |
+|   20 |    qa |        aaabbbbbbbbbb$ |              S |           2 |             |
+|   21 |    qa |        aaabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   22 |     q |        aaabbbbbbbbbb$ |              S |           3 |             |
+|   23 |    qa |         aabbbbbbbbbb$ |              S |           2 |             |
+|   24 |    qa |         aabbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   25 |     q |         aabbbbbbbbbb$ |              S |           3 |             |
+|   26 |    qa |          abbbbbbbbbb$ |              S |           2 |             |
+|   27 |    qa |          abbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   28 |     q |          abbbbbbbbbb$ |              S |           3 |             |
+|   29 |    qa |           bbbbbbbbbb$ |              S |           2 |             |
+|   30 |    qa |           bbbbbbbbbb$ |              a |           7 |    S -> aSb |
+|   31 |     q |           bbbbbbbbbb$ |              S |           3 |             |
+|   32 |    qb |            bbbbbbbbb$ |              S |           4 |             |
+|   33 |    qb |            bbbbbbbbb$ |              b |           8 |      S -> e |
+|   34 |     q |            bbbbbbbbb$ |              S |           5 |             |
+|   35 |    qb |             bbbbbbbb$ |              S |           4 |             |
+|   36 |    qb |             bbbbbbbb$ |              b |           8 |      S -> e |
+|   37 |     q |             bbbbbbbb$ |              S |           5 |             |
+|   38 |    qb |              bbbbbbb$ |              S |           4 |             |
+|   39 |    qb |              bbbbbbb$ |              b |           8 |      S -> e |
+|   40 |     q |              bbbbbbb$ |              S |           5 |             |
+|   41 |    qb |               bbbbbb$ |              S |           4 |             |
+|   42 |    qb |               bbbbbb$ |              b |           8 |      S -> e |
+|   43 |     q |               bbbbbb$ |              S |           5 |             |
+|   44 |    qb |                bbbbb$ |              S |           4 |             |
+|   45 |    qb |                bbbbb$ |              b |           8 |      S -> e |
+|   46 |     q |                bbbbb$ |              S |           5 |             |
+|   47 |    qb |                 bbbb$ |              S |           4 |             |
+|   48 |    qb |                 bbbb$ |              b |           8 |      S -> e |
+|   49 |     q |                 bbbb$ |              S |           5 |             |
+|   50 |    qb |                  bbb$ |              S |           4 |             |
+|   51 |    qb |                  bbb$ |              b |           8 |      S -> e |
+|   52 |     q |                  bbb$ |              S |           5 |             |
+|   53 |    qb |                   bb$ |              S |           4 |             |
+|   54 |    qb |                   bb$ |              b |           8 |      S -> e |
+|   55 |     q |                   bb$ |              S |           5 |             |
+|   56 |    qb |                    b$ |              S |           4 |             |
+|   57 |    qb |                    b$ |              b |           8 |      S -> e |
+|   58 |     q |                    b$ |              S |           5 |             |
+|   59 |    qb |                     $ |              S |           4 |             |
+|   60 |    qb |                     $ |              b |           8 |      S -> e |
+|   61 |     q |                     $ |              S |           5 |             |
+|   62 |    q$ |                       |              S |           6 |             |
